@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-macchina',
@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrl: './macchina.component.css'
 })
 export class MacchinaComponent {
-
+  @Input() nomemacchina!: string ;
 }

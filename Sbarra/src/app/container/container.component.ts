@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { MacchinaComponent } from '../macchina/macchina.component';
 
 @Component({
   selector: 'app-container',
-  imports: [],
+  imports: [MacchinaComponent],
   templateUrl: './container.component.html',
   styleUrl: './container.component.css'
 })
