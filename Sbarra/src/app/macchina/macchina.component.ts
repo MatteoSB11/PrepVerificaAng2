@@ -8,4 +8,8 @@ import { Component, Input } from '@angular/core';
 })
 export class MacchinaComponent {
   @Input() nomemacchina!: string ;
+  pezzi: string[];  
+  constructor() { 
+     this.pezzi = ['Bulloni', 'Viti', 'Ferro']; 
+  }
 }
